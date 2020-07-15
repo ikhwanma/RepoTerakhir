@@ -58,183 +58,183 @@ public class SurveyActivity extends AppCompatActivity {
             case R.id.btnIya1:
                 if(isSelected){
                     jumlahNilai[0] = 9;
-                    btnIya1.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnTidak1.setBackgroundColor(Color.parseColor("#ff0000"));
+                    btnIya1.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnTidak1.setBackgroundResource(R.drawable.btn_tidak);
                 }
                 break;
             case R.id.btnTidak1:
                 if (isSelected){
                     jumlahNilai[0] = 0;
-                    btnTidak1.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnIya1.setBackgroundColor(Color.parseColor("#00ff55"));
+                    btnTidak1.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnIya1.setBackgroundResource(R.drawable.btn_iya);
                 }
                 break;
             case R.id.btnIya2:
                 if(isSelected){
                     jumlahNilai[1] = 9;
-                    btnIya2.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnTidak2.setBackgroundColor(Color.parseColor("#ff0000"));
+                    btnIya2.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnTidak2.setBackgroundResource(R.drawable.btn_tidak);
                 }
                 break;
             case R.id.btnTidak2:
                 if (isSelected){
                     jumlahNilai[1] = 0;
-                    btnTidak2.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnIya2.setBackgroundColor(Color.parseColor("#00ff55"));
+                    btnTidak2.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnIya2.setBackgroundResource(R.drawable.btn_iya);
                 }
                 break;
             case R.id.btnIya3:
                 if(isSelected){
                     jumlahNilai[2] = 9;
-                    btnIya3.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnTidak3.setBackgroundColor(Color.parseColor("#ff0000"));
+                    btnIya3.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnTidak3.setBackgroundResource(R.drawable.btn_tidak);
                 }
                 break;
             case R.id.btnTidak3:
                 if (isSelected){
                     jumlahNilai[2] = 0;
-                    btnTidak3.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnIya3.setBackgroundColor(Color.parseColor("#00ff55"));
+                    btnTidak3.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnIya3.setBackgroundResource(R.drawable.btn_iya);
                 }
                 break;
             case R.id.btnIya4:
                 if(isSelected){
                     jumlahNilai[3] = 4;
-                    btnIya4.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnTidak4.setBackgroundColor(Color.parseColor("#ff0000"));
+                    btnIya4.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnTidak4.setBackgroundResource(R.drawable.btn_tidak);
                 }
                 break;
             case R.id.btnTidak4:
                 if (isSelected){
                     jumlahNilai[3] = 0;
-                    btnTidak4.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnIya4.setBackgroundColor(Color.parseColor("#00ff55"));
+                    btnTidak4.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnIya4.setBackgroundResource(R.drawable.btn_iya);
                 }
                 break;
             case R.id.btnIya5:
                 if(isSelected){
                     jumlahNilai[4] = 4;
-                    btnIya5.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnTidak5.setBackgroundColor(Color.parseColor("#ff0000"));
+                    btnIya5.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnTidak5.setBackgroundResource(R.drawable.btn_tidak);
                 }
                 break;
             case R.id.btnTidak5:
                 if (isSelected){
                     jumlahNilai[4] = 0;
-                    btnTidak5.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnIya5.setBackgroundColor(Color.parseColor("#00ff55"));
+                    btnTidak5.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnIya5.setBackgroundResource(R.drawable.btn_iya);
                 }
                 break;
             case R.id.btnIya6:
                 if(isSelected){
                     jumlahNilai[5] = 4;
-                    btnIya6.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnTidak6.setBackgroundColor(Color.parseColor("#ff0000"));
+                    btnIya6.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnTidak6.setBackgroundResource(R.drawable.btn_tidak);
                 }
                 break;
             case R.id.btnTidak6:
                 if (isSelected){
                     jumlahNilai[5] = 0;
-                    btnTidak6.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnIya6.setBackgroundColor(Color.parseColor("#00ff55"));
+                    btnTidak6.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnIya6.setBackgroundResource(R.drawable.btn_iya);
                 }
                 break;
             case R.id.btnIya7:
                 if(isSelected){
                     jumlahNilai[6] = 4;
-                    btnIya7.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnTidak7.setBackgroundColor(Color.parseColor("#ff0000"));
+                    btnIya7.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnTidak7.setBackgroundResource(R.drawable.btn_tidak);
                 }
                 break;
             case R.id.btnTidak7:
                 if (isSelected){
                     jumlahNilai[6] = 0;
-                    btnTidak7.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnIya7.setBackgroundColor(Color.parseColor("#00ff55"));
+                    btnTidak7.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnIya7.setBackgroundResource(R.drawable.btn_iya);
                 }
                 break;
             case R.id.btnIya8:
                 if(isSelected){
                     jumlahNilai[7] = 4;
-                    btnIya8.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnTidak8.setBackgroundColor(Color.parseColor("#ff0000"));
+                    btnIya8.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnTidak8.setBackgroundResource(R.drawable.btn_tidak);
                 }
                 break;
             case R.id.btnTidak8:
                 if (isSelected){
                     jumlahNilai[7] = 0;
-                    btnTidak8.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnIya8.setBackgroundColor(Color.parseColor("#00ff55"));
+                    btnTidak8.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnIya8.setBackgroundResource(R.drawable.btn_iya);
                 }
                 break;
             case R.id.btnIya9:
                 if(isSelected){
                     jumlahNilai[8] = 4;
-                    btnIya9.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnTidak9.setBackgroundColor(Color.parseColor("#ff0000"));
+                    btnIya9.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnTidak9.setBackgroundResource(R.drawable.btn_tidak);
                 }
                 break;
             case R.id.btnTidak9:
                 if (isSelected){
                     jumlahNilai[8] = 0;
-                    btnTidak9.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnIya9.setBackgroundColor(Color.parseColor("#00ff55"));
+                    btnTidak9.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnIya9.setBackgroundResource(R.drawable.btn_iya);
                 }
                 break;
             case R.id.btnIya10:
                 if(isSelected){
                     jumlahNilai[9] = 4;
-                    btnIya10.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnTidak10.setBackgroundColor(Color.parseColor("#ff0000"));
+                    btnIya10.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnTidak10.setBackgroundResource(R.drawable.btn_tidak);
                 }
                 break;
             case R.id.btnTidak10:
                 if (isSelected){
                     jumlahNilai[9] = 0;
-                    btnTidak10.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnIya10.setBackgroundColor(Color.parseColor("#00ff55"));
+                    btnTidak10.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnIya10.setBackgroundResource(R.drawable.btn_iya);
                 }
                 break;
             case R.id.btnIya11:
                 if(isSelected){
                     jumlahNilai[10] = 15;
-                    btnIya11.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnTidak11.setBackgroundColor(Color.parseColor("#ff0000"));
+                    btnIya11.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnTidak11.setBackgroundResource(R.drawable.btn_tidak);
                 }
                 break;
             case R.id.btnTidak11:
                 if (isSelected){
                     jumlahNilai[10] = 0;
-                    btnTidak11.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnIya11.setBackgroundColor(Color.parseColor("#00ff55"));
+                    btnTidak11.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnIya11.setBackgroundResource(R.drawable.btn_iya);
                 }
                 break;
             case R.id.btnIya12:
                 if(isSelected){
                     jumlahNilai[11] = 15;
-                    btnIya12.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnTidak12.setBackgroundColor(Color.parseColor("#ff0000"));
+                    btnIya12.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnTidak12.setBackgroundResource(R.drawable.btn_tidak);
                 }
                 break;
             case R.id.btnTidak12:
                 if (isSelected){
                     jumlahNilai[11] = 0;
-                    btnTidak12.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnIya12.setBackgroundColor(Color.parseColor("#00ff55"));
+                    btnTidak12.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnIya12.setBackgroundResource(R.drawable.btn_iya);
                 }
                 break;
             case R.id.btnIya13:
                 if(isSelected){
                     jumlahNilai[12] = 15;
-                    btnIya13.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnTidak13.setBackgroundColor(Color.parseColor("#ff0000"));
+                    btnIya13.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnTidak13.setBackgroundResource(R.drawable.btn_tidak);
                 }
                 break;
             case R.id.btnTidak13:
                 if (isSelected){
                     jumlahNilai[12] = 0;
-                    btnTidak13.setBackgroundColor(Color.parseColor("#0400ff"));
-                    btnIya13.setBackgroundColor(Color.parseColor("#00ff55"));
+                    btnTidak13.setBackgroundResource(R.drawable.btn_dipilih);
+                    btnIya13.setBackgroundResource(R.drawable.btn_iya);
                 }
                 break;
 
