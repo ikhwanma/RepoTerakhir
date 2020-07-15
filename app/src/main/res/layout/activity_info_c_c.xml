@@ -1,9 +1,446 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".InfoCC">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Layanan Pengaduan Program Keluarga Harapan Kementerian"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="e-mail:pengaduan@pkh.kemsos.go.id"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="call center:1500299 (setiap hari kerja 08.00 s.d. 17.00 WIB)"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Layanan Pengaduan Bansos Kementerian Sosial"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="e-mail:bansoscovid19@kemsos.go.id"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kontak layanan:157"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WA:0811-10-222-10"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="3.Layanan Masyarakat Kartu Prakerja"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="call center:021-25541246 (setiap hari kerja 08.00 s.d. 19.00 WIB)"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="104dp"
+            android:text="4.Bantuan Langsung Tunai Desa"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="128dp"
+            android:text="call center:1500040"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:text="SMS center:0877-8899-0040 atau 0812-8899-0040"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="208dp"
+            android:text="5.Pembebasan Biaya Listrik (PLN)"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="248dp"
+            android:text="contact center:123"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:text="e-mail:pln123@pln.co.id"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="304dp"
+            android:text="call center:08122-123-123"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="340dp"
+            android:text="6.Tambahan insentif perumahan Kementerian PUPR"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="396dp"
+            android:text="e-mail:informasi@pu.go.id"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:text="7.Informasi lebih lanjut mengenai perpajakan"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="444dp"
+            android:text="e-mail:informasi@pajak.go.id"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="468dp"
+            android:text="Kring Pajak:1500200"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:text="8.Informasi lebih lanjut mengenai bea masuk dan cukai"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="e-mail:info@customs.go.id"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView41" />
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bravo Bea Cukai:1500225"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView42" />
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9.Informasi lebih lanjut mengenai Restrukturisasi Kredit atau Pembiayaan terkait dampak COVID-19 Layanan Kontak OJK"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView43" />
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="e-mail:konsumen@ojk.go.id"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView44" />
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kontak layanan:157"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView45" />
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WA:081-157-157-157"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView46" />
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10.Posko Pengaduan Daring bagi Masyarakat Terdampak Bencana Nasional COVID-19 Ombudsman Pusat"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView47" />
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="e-mail:covid19-pusat@ombudsman.go.id"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView48" />
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WA:0811-919-3737"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView49" />
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11.Kejahatan Narkotika BNN"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView50" />
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="call center:184"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView51" />
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMS/WA:0812-2167-5675"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView52" />
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12.Pelayanan SEJIWA Kemen PPPA"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView53" />
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="e-mail:pengaduan@kemenpppa.go.id"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView54" />
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="browser:http://bit.ly/kamitetapada"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView55" />
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="call center:119 ext. 8 / 0821-2575-1234 / 0811-1922-911"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView56" />
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13.WA Center Kementerian Agama Sigap COVID-19"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView57" />
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WA:081-1159-9003"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView58" />
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14.Informasi Fungsi Relawan Desa Lawan COVID-19 Kementerian Desa, PDT, dan Transmigrasi"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView59" />
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="call center:1500040"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView60" />
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMS center:0877-8899-0040 / 0812-8899-0040"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView61" />
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15.Jalur Pengaduan bagi Pelaku Pariwisata dan Ekonomi Kreatif Terdampak COVID-19"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView62" />
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="e-mail:info@kemenparekraf.go.id"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView63" />
+        <TextView
+            android:id="@+id/textView65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="website:https://pedulicovid19.kemenparekraf.go.id/"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView64" />
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WA:0811-8956-767"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView65" />
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16.Layanan Pengiriman Surat ke Kementerian Perdagangan"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView66" />
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="e-mail:persuratan@kemendag.go.id"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView67" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
