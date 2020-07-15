@@ -3,6 +3,8 @@ package com.android.puntenhackjam;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,6 +26,7 @@ public class HomePage extends AppCompatActivity {
         btnGejala =findViewById(R.id.buttonGejala);
         btnCallCenter=findViewById(R.id.buttonCallCenter);
         btnRSRujukan = findViewById(R.id.buttonRSRujukan);
+        btnCekKondisi.setBackgroundColor(Color.parseColor("#E5ECFF"));
 
         btnCekKondisi.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,15 +47,20 @@ public class HomePage extends AppCompatActivity {
         btnCallCenter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goToInfoCC = new Intent(HomePage.this,InfoCC.class);
-                startActivity(goToInfoCC);
+                String url = "https://covid19.go.id/p/konten/kontak-layanan-kementerianlembaga-untuk-covid-19";
+
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
             }
         });
         btnRSRujukan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goToInfoRS= new Intent(HomePage.this,InfoRS.class);
-                startActivity(goToInfoRS);
+                String url = "https://covid19.go.id/daftar-rumah-sakit-rujukan";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
             }
         });
 
