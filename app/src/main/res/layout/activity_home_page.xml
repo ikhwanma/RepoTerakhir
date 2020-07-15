@@ -7,47 +7,48 @@
     tools:context=".HomePage">
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="384dp"
-        android:layout_height="69dp"
-        android:layout_marginTop="32dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
-
-    <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonCekKondisi"
         android:layout_width="384dp"
         android:layout_height="69dp"
         android:layout_marginTop="144dp"
-        android:text="Button"
+        android:text="Cek Kondisi Anda"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonGejala"
         android:layout_width="384dp"
         android:layout_height="69dp"
         android:layout_marginTop="32dp"
-        android:text="Button"
+        android:text="Gejala Covid-19"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonCekKondisi" />
+
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonCallCenter"
         android:layout_width="384dp"
         android:layout_height="69dp"
         android:layout_marginTop="32dp"
-        android:text="Button"
+        android:text="Call Center Covid-19"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonGejala" />
+
+    <Button
+        android:id="@+id/buttonRSRujukan"
+        android:layout_width="384dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="32dp"
+        android:text="RS rujukan Covid-19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCallCenter" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
