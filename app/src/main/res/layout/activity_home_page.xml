@@ -5,24 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomePage">
+
+    <TextView
+        android:id="@+id/textView15"
+
+        android:layout_width="80dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Beranda"
+        android:textColor="#21243C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/buttonCekKondisi"
         android:layout_width="300dp"
         android:layout_height="86dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="44dp"
         android:fontFamily="@font/montserrat"
+        android:stateListAnimator="@null"
         android:text="\t\t\tCek Kondisi Anda"
-        android:background="#E5ECFF"
-        android:textAllCaps="false" android:stateListAnimator="@null"
+        android:background="@drawable/btn_daftar"
+        android:textAllCaps="false"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintHorizontal_bias="0.522"
+
+
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
-
-    />
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -36,11 +52,12 @@
 
     <Button
         android:id="@+id/buttonGejala"
-        android:background="#E5ECFF"
+
         android:layout_width="300dp"
         android:layout_height="86dp"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/montserrat"
+        android:background="@drawable/btn_homepage"
         android:text="\t\t\tGejala COVID-19"
         android:textAlignment="center"
         android:textAllCaps="false"
@@ -72,7 +89,7 @@
         android:layout_marginTop="32dp"
         android:fontFamily="@font/montserrat"
         android:text="\t\t\t\tDaftar Rumah Sakit \n\t\t\tRujukan COVID-19"
-        android:background="#E5ECFF"
+        android:background="@drawable/btn_homepage"
         android:textAllCaps="false"
         android:textSize="16sp"
         android:textStyle="bold" android:stateListAnimator="@null"
@@ -111,7 +128,8 @@
         android:layout_height="86dp"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/montserrat"
-        android:background="#E5ECFF" android:stateListAnimator="@null"
+        android:background="@drawable/btn_homepage"
+        android:stateListAnimator="@null"
         android:text="\tKontak Layanan \nKelembagaan dan \nKementerian COVID-19"
         android:textAllCaps="false"
         android:textSize="15sp"
