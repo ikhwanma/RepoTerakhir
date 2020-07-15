@@ -248,8 +248,6 @@ public class SurveyActivity extends AppCompatActivity {
                 for(int i=0; i<jumlahNilai.length; i++){
                     sum += jumlahNilai[i];
                 }
-                SaveNilai saveNilai = new SaveNilai();
-                saveNilai.setNilai(sum);
                 Intent intent = new Intent(SurveyActivity.this,HasilSurvey.class);
                 intent.putExtra("SUM",sum);
                 startActivity(intent);
