@@ -32,6 +32,7 @@ public class SurveyActivity extends AppCompatActivity {
             cek[i] = "aa";
         }
         //a
+        //b
         btnIya1 = findViewById(R.id.btnIya1);
         btnIya2 = findViewById(R.id.btnIya2);
         btnIya3 = findViewById(R.id.btnIya3);
