@@ -29,7 +29,7 @@
         android:fontFamily="@font/montserrat"
         android:stateListAnimator="@null"
         android:text="\t\t\tCek Kondisi Anda"
-        android:background="@drawable/btn_daftar"
+        android:background="@drawable/btn_homepage"
         android:textAllCaps="false"
         android:textSize="18sp"
         android:textStyle="bold"

@@ -26,7 +26,6 @@ public class HomePage extends AppCompatActivity {
         btnGejala =findViewById(R.id.buttonGejala);
         btnCallCenter=findViewById(R.id.buttonCallCenter);
         btnRSRujukan = findViewById(R.id.buttonRSRujukan);
-        btnCekKondisi.setBackgroundColor(Color.parseColor("#E5ECFF"));
 
         btnCekKondisi.setOnClickListener(new View.OnClickListener() {
             @Override
