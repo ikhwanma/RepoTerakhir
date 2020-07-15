@@ -10,9 +10,10 @@
         android:id="@+id/view2"
         android:layout_width="295dp"
         android:layout_height="261dp"
-        android:layout_marginTop="251dp"
+        android:layout_marginTop="156dp"
         android:background="@drawable/hasil"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,11 +36,13 @@
         android:layout_width="295dp"
         android:layout_height="38dp"
         android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_kembali"
+        android:fontFamily="@font/montserrat"
         android:text="Kembali Ke Beranda"
         android:textSize="12dp"
         android:textStyle="bold"
-        android:fontFamily="@font/montserrat"
-        android:background="@drawable/btn_kembali"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnDaftar" />
