@@ -26,12 +26,13 @@
         android:text="Daftar Rumah Sakit Rujukan COVID - 19"
         android:textSize="12dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/btnKembali"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnKembali"
         android:layout_width="295dp"
         android:layout_height="38dp"
         android:layout_marginBottom="60dp"
@@ -39,6 +40,8 @@
         android:fontFamily="@font/montserrat"
         android:text="Kembali Ke Beranda"
         android:textAllCaps="false"
+        android:textSize="12dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
