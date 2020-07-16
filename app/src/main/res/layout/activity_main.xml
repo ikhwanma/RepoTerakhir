@@ -17,6 +17,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:background="@drawable/lingkaran"
+        android:layout_marginRight="69dp"
+        android:layout_marginBottom="121dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
         android:id="@+id/view"
         android:layout_width="18dp"
         android:layout_height="18dp"
