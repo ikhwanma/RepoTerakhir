@@ -9,8 +9,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="-284dp">
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="206dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -22,10 +22,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat"
                 android:text="6. Apakah Mata Memerah?"
                 android:textColor="#21243C"
-                android:textSize="14sp" android:textStyle="bold"
-                android:fontFamily="@font/montserrat"
+                android:textSize="14sp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnIya5" />
 
@@ -35,10 +36,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat"
                 android:text="3. Apakah Kelelahan?"
                 android:textColor="#21243C"
-                android:textSize="14sp" android:textStyle="bold"
-                android:fontFamily="@font/montserrat"
+                android:textSize="14sp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnIya2" />
 
@@ -50,13 +52,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_tidak"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Tidak"
-                android:fontFamily="@font/montserrat"
                 android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toEndOf="@+id/btnIya6"
                 app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
@@ -68,13 +70,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_tidak"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Tidak"
-                android:fontFamily="@font/montserrat"
                 android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toEndOf="@+id/btnIya4"
                 app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -86,13 +88,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_iya"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Ya"
-                android:fontFamily="@font/montserrat"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
-                android:textAlignment="center"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
@@ -104,13 +106,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_tidak"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Tidak"
-                android:fontFamily="@font/montserrat"
                 android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toEndOf="@+id/btnIya5"
                 app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -140,13 +142,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_tidak"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Tidak"
-                android:fontFamily="@font/montserrat"
                 android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toEndOf="@+id/btnIya3"
                 app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -158,13 +160,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_iya"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Ya"
                 android:textAlignment="center"
-                android:fontFamily="@font/montserrat"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
@@ -176,13 +178,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_tidak"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Tidak"
-                android:fontFamily="@font/montserrat"
                 android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toEndOf="@+id/btnIya7"
                 app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
@@ -192,10 +194,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat"
                 android:text="5. Apakah Sakit Kepala?"
                 android:textColor="#21243C"
-                android:textSize="14sp" android:textStyle="bold"
-                android:fontFamily="@font/montserrat"
+                android:textSize="14sp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnIya4" />
 
@@ -207,13 +210,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_iya"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Ya"
                 android:textAlignment="center"
-                android:fontFamily="@font/montserrat"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -239,13 +242,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_tidak"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Tidak"
-                android:fontFamily="@font/montserrat"
                 android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toEndOf="@+id/btnIya1"
                 app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -257,13 +260,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_iya"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Ya"
                 android:textAlignment="center"
-                android:fontFamily="@font/montserrat"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -273,10 +276,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat"
                 android:text="4. Apakah Hidung Tersumbat?"
                 android:textColor="#21243C"
-                android:textSize="14sp" android:textStyle="bold"
-                android:fontFamily="@font/montserrat"
+                android:textSize="14sp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnIya3" />
 
@@ -288,13 +292,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_iya"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Ya"
                 android:textAlignment="center"
-                android:fontFamily="@font/montserrat"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -304,10 +308,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat"
                 android:text="7. Apakah Sakit Tenggorokan?"
                 android:textColor="#21243C"
-                android:textSize="14sp" android:textStyle="bold"
-                android:fontFamily="@font/montserrat"
+                android:textSize="14sp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnIya6" />
 
@@ -319,13 +324,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_iya"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Ya"
                 android:textAlignment="center"
-                android:fontFamily="@font/montserrat"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -337,13 +342,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_tidak"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Tidak"
-                android:fontFamily="@font/montserrat"
                 android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toEndOf="@+id/btnIya2"
                 app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -367,10 +372,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat"
                 android:text="8. Apakah Diare?"
                 android:textColor="#21243C"
                 android:textSize="14sp"
-                android:fontFamily="@font/montserrat"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/btnIya7" />
 
@@ -382,13 +387,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_iya"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Ya"
                 android:textAlignment="center"
-                android:fontFamily="@font/montserrat"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
@@ -400,28 +405,29 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_tidak"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Tidak"
-                android:fontFamily="@font/montserrat"
                 android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toEndOf="@id/btnIya8"
                 app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
             <TextView
-            android:id="@+id/textView21"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="25dp"
-            android:text="9. Apakah Kehilangan Penciuman Bau?"
-                android:textColor="#21243C"
-                android:textSize="14sp" android:textStyle="bold"
                 android:fontFamily="@font/montserrat"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/btnIya8" />
+                android:text="9. Apakah Kehilangan Penciuman Bau?"
+                android:textColor="#21243C"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnIya8" />
 
             <RadioButton
                 android:id="@+id/btnIya9"
@@ -431,13 +437,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_iya"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Ya"
                 android:textAlignment="center"
-                android:fontFamily="@font/montserrat"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
@@ -449,13 +455,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_tidak"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Tidak"
-                android:fontFamily="@font/montserrat"
                 android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toEndOf="@id/btnIya9"
                 app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
@@ -481,13 +487,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_iya"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Ya"
                 android:textAlignment="center"
-                android:fontFamily="@font/montserrat"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
@@ -499,25 +505,27 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_tidak"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Tidak"
-                android:fontFamily="@font/montserrat"
                 android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toEndOf="@id/btnIya10"
                 app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
             <TextView
                 android:id="@+id/textView23"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat"
                 android:text="11. Apakah Kesulitan Bernafas / Sesak Nafas?"
                 android:textColor="#21243C"
-                android:textSize="14sp" android:textStyle="bold"
-                android:fontFamily="@font/montserrat"
+                android:textSize="14sp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/btnIya10" />
 
@@ -529,13 +537,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_iya"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Ya"
                 android:textAlignment="center"
-                android:fontFamily="@font/montserrat"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
@@ -547,25 +555,27 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_tidak"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Tidak"
-                android:fontFamily="@font/montserrat"
                 android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toEndOf="@id/btnIya11"
                 app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
             <TextView
                 android:id="@+id/textView24"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat"
                 android:text="12. Apakah Nyeri Dada / Rasa Tertekan Di Dada?"
                 android:textColor="#21243C"
                 android:textSize="14sp"
-                android:fontFamily="@font/montserrat" android:textStyle="bold"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/btnIya11" />
 
@@ -577,13 +587,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_iya"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Ya"
                 android:textAlignment="center"
-                android:fontFamily="@font/montserrat"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
@@ -595,25 +605,27 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_tidak"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Tidak"
-                android:fontFamily="@font/montserrat"
                 android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toEndOf="@id/btnIya12"
                 app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
             <TextView
                 android:id="@+id/textView25"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat"
                 android:text="13. Apakah Nyeri Dada / Rasa Tertekan Di Dada?"
                 android:textColor="#21243C"
-                android:textSize="14sp" android:textStyle="bold"
-                android:fontFamily="@font/montserrat"
+                android:textSize="14sp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/btnIya12" />
 
@@ -625,13 +637,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_iya"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Ya"
                 android:textAlignment="center"
-                android:fontFamily="@font/montserrat"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
@@ -643,13 +655,13 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_tidak"
                 android:button="@android:color/transparent"
+                android:fontFamily="@font/montserrat"
                 android:onClick="onRadioButtonClicked"
                 android:text="Tidak"
-                android:fontFamily="@font/montserrat"
                 android:textAlignment="center"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toEndOf="@id/btnIya13"
                 app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
@@ -660,9 +672,9 @@
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="24dp"
                 android:background="@drawable/btn_hasil"
+                android:fontFamily="@font/montserrat"
                 android:text="Lihat Hasil"
                 android:textColor="#FFFFFF"
-                android:fontFamily="@font/montserrat"
                 android:textSize="14dp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -684,7 +696,18 @@
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-                <!--aaaa-->
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="24dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/arrowfix"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/arrowfix" />
+            <!--aaaa-->
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

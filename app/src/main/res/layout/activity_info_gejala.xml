@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".InfoGejala">
 
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="24dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/arrowfix"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrowfix" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

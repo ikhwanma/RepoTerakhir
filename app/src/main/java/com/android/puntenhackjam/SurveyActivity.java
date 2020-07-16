@@ -8,6 +8,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -18,6 +19,7 @@ import java.util.List;
 public class SurveyActivity extends AppCompatActivity {
     int jumlahNilai[] = new int[13];
     String cek[] = new String[13];
+    Button buttonBack;
     RadioButton btnIya1,btnIya2,btnIya3,btnIya4,btnIya5,btnIya13,btnIya6,btnIya7,btnIya8,btnIya9,btnIya10,btnIya11,btnIya12;
     RadioButton btnTidak1,btnTidak2,btnTidak3,btnTidak4,btnTidak5,btnTidak6,btnTidak7,btnTidak8,btnTidak9,btnTidak10,btnTidak11,btnTidak12,btnTidak13;
     Button btnSubmit;
@@ -28,6 +30,16 @@ public class SurveyActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_survey);
+        buttonBack = findViewById(R.id.buttonBack);
+
+        buttonBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goToHomePage = new Intent(SurveyActivity.this,HomePage.class);
+                startActivity(goToHomePage);
+            }
+        });
+
         for (int i = 0; i< 13;i++){
             cek[i] = "aa";
         }
