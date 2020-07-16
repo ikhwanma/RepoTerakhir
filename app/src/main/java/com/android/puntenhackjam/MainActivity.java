@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 
 public class MainActivity extends Activity {
 
@@ -12,17 +13,13 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Thread thread = new Thread(){
-            public void run(){
-                try{
-                    sleep(3000);
-                }catch (InterruptedException e){
-                    e.printStackTrace();
-                }finally {
-                    startActivity(new Intent(MainActivity.this,DescPage.class));
-                }
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent IntentMain=new Intent(MainActivity.this, DescPage.class);
+                startActivity(IntentMain);
+                finish();
             }
-        };
-        thread.start();
+        },2000);
     }
 }
