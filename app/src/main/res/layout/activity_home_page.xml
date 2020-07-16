@@ -58,7 +58,7 @@
         android:layout_marginTop="32dp"
         android:fontFamily="@font/montserrat"
         android:background="@drawable/btn_homepage"
-        android:text="\t\t\tGejala COVID-19"
+        android:text="\t\t\tTips Terhindar \nCOVID-19"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textSize="18sp"
