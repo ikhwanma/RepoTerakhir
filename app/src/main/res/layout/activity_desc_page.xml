@@ -12,40 +12,42 @@
         android:id="@+id/textView4"
         android:layout_width="266dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="29dp"
+        android:layout_marginTop="7dp"
         android:fontFamily="@font/montserrat"
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. A ullamcorper ultricies ut tellus quis lectus etiam ultrices proin. Nulla mattis vestibulum, egestas eleifend vitae. Id congue arcu suspendisse morbi eu auctor."
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         android:textStyle="normal"
-        app:layout_constraintBottom_toTopOf="@+id/btnNext"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
         android:id="@+id/btnNext"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:layout_marginBottom="77dp"
         android:background="@drawable/btn_next"
         android:fontFamily="@font/montserrat"
         android:text="Selanjutnya"
         android:textSize="14sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="84dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="212dp"
-        android:layout_height="212dp"
-        android:layout_marginBottom="27dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        android:layout_width="318dp"
+        android:layout_height="135dp"
+        android:layout_margin="178dp"
+        android:src="@drawable/logosicoku"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@android:color/background_light" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
